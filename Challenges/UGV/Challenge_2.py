@@ -32,6 +32,10 @@ vehicle = connect(connection_string, wait_ready=True)
 distance = 30  # Distance in meters
 speed = 0.17  # Speed in meters_per_second
 
+# ******************** Updated dimensions *******************
+# distance = 27.432  # Distance in meters | Yards equivalence 30 yd --> 27.432 m
+# speed = 0.076  # Speed in meters_per_second | MPH equivalence 0.17 mph --> 0.076 m/s
+
 
 # Calculates the target location
 def calculate_target_location(current_ugv_location):
